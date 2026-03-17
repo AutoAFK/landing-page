@@ -124,3 +124,22 @@ body {
     border-radius: 15px;
 }
 
+.insperation-quote {
+    background-color: #E5E7EB;
+    padding: 100px 400px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.quote-author {
+    font-weight: 900;
+    align-self: flex-end;
+}
