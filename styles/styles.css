@@ -15,23 +15,23 @@ body {
 }
 
 .hero {
-    flex: 3;
+    flex: 4;
 }
 
 .work-display {
-    flex: 2;
+    flex: 3;
 }
 
 .insperation-quote {
-    flex: 2;
+    flex: 3;
 }
 
 .contact-me {
-    flex: 2;
+    flex: 3;
 }
 
 .footer {
-    flex: 1;
+    flex: 0 0 100px;
 }
 
 .center-wrapper {
@@ -148,6 +148,14 @@ body {
     justify-content: space-around;
 }
 
-.link-contact {
+.contact-me .link-contact {
     border: 2px solid #F9FAF8;
+}
+
+.footer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
