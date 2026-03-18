@@ -34,7 +34,7 @@ body {
     flex: 1;
 }
 
-.center {
+.center-wrapper {
     width: 1000px;
     margin: 0 auto;
 }
@@ -98,17 +98,13 @@ body {
     align-items: center;
 }
 
-.work-display {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.work-display{
     text-align: center;
-    padding: 50px 0;
-    gap: 50px;
+    padding: 100px 0;
 }
 
 .cards {
+    margin-top: 50px;
     display: flex;
     gap: 36px;
 }
@@ -126,20 +122,32 @@ body {
 
 .insperation-quote {
     background-color: #E5E7EB;
-    padding: 100px 400px;
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    
+    padding: 100px 0;
     font-size: 36px;
     color: #1F2937;
     font-weight: 300;
 }
 
 .quote-author {
+    margin-top: 30px;
     font-weight: 900;
-    align-self: flex-end;
+    text-align: end;
+}
+
+.contact-me {
+    padding: 100px 0;
+    
+    color: #F9FAF8;
+}
+
+.contact-me-container {
+    background-color: #3882F6;
+    padding: 50px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.link-contact {
+    border: 2px solid #F9FAF8;
 }
